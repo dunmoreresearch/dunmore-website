@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500">
+  <rect width="1200" height="500" fill="#141413"/>
+  <g fill="none" stroke="#222220" stroke-width="0.7">
+    <ellipse cx="600" cy="250" rx="60" ry="30"/>
+    <ellipse cx="600" cy="250" rx="120" ry="60"/>
+    <ellipse cx="600" cy="250" rx="190" ry="95"/>
+    <ellipse cx="600" cy="250" rx="265" ry="130"/>
+    <ellipse cx="600" cy="250" rx="345" ry="168"/>
+    <ellipse cx="600" cy="250" rx="430" ry="208"/>
+    <ellipse cx="600" cy="250" rx="520" ry="250"/>
+  </g>
+  <ellipse cx="600" cy="250" rx="60" ry="30" fill="none" stroke="#c8a96e" stroke-width="0.8" opacity="0.55"/>
+  <ellipse cx="600" cy="250" rx="120" ry="60" fill="none" stroke="#c8a96e" stroke-width="0.4" opacity="0.28"/>
+  <ellipse cx="600" cy="250" rx="190" ry="95" fill="none" stroke="#c8a96e" stroke-width="0.3" opacity="0.15"/>
+  <circle cx="600" cy="250" r="3" fill="#c8a96e" opacity="0.85"/>
+  <circle cx="600" cy="250" r="9" fill="none" stroke="#c8a96e" stroke-width="0.5" opacity="0.35"/>
+  <g stroke="#1e1e1c" stroke-width="0.5">
+    <line x1="600" y1="0" x2="600" y2="500"/>
+    <line x1="0" y1="250" x2="1200" y2="250"/>
+  </g>
+  <g fill="#4a4a46" opacity="0.45">
+    <circle cx="180" cy="140" r="2"/>
+    <circle cx="340" cy="370" r="1.5"/>
+    <circle cx="870" cy="165" r="2"/>
+    <circle cx="1020" cy="390" r="1.5"/>
+    <circle cx="140" cy="410" r="1"/>
+    <circle cx="1070" cy="105" r="1"/>
+    <circle cx="430" cy="80" r="1.5"/>
+    <circle cx="950" cy="440" r="1"/>
+  </g>
+  <defs>
+    <radialGradient id="v2" cx="50%" cy="50%" r="62%">
+      <stop offset="0%" stop-color="#141413" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#141413" stop-opacity="0.92"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="500" fill="url(#v2)"/>
+</svg>
